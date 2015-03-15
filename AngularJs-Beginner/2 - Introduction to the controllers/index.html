@@ -1,0 +1,22 @@
+
+<html ng-app>
+<head >
+	<script src="lib/angular/angular.min.js"></script>
+</head>
+<body>
+	<div ng-controller="myfunction">
+		<h2>{{author.name}}</h2>
+		<p>{{author.category + ', ' + 'author.company'}}</p>
+	</div>
+
+<script>
+function myfunction ($scope){
+	$scope.author = {
+		'name' : 'Dayan',
+		'category' : 'sci-fic',
+		'company' : 'Disney'
+	}
+}
+</script>
+</body>
+</html>
