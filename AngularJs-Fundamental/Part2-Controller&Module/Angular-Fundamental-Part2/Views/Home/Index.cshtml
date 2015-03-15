@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    <script src="~/Scripts/Home/Module.js"></script>
+    <script src="~/Scripts/Home/Controller.js"></script>
+}
+
+
+<nav class="row" >
+    <div ng-controller="HomeCntrl">
+        {{values.Name}} <br>
+        {{values.Date}} <br>
+        {{values.time}} <br>
+    </div>
+    
+</nav>

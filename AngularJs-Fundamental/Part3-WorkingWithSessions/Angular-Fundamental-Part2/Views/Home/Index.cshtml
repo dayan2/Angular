@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    <script src="~/Scripts/Home/Module.js"></script>
+    <script src="~/Scripts/Home/Controller.js"></script>
+}
+
+
+<nav class="row" >
+    <div ng-controller="HomeCntrl">
+        {{values.Name}} <br>
+        {{values.Date}} <br>
+        {{values.time}} <br> <br>
+        {{values.Location.Address}} <br>
+        {{values.Location.City}} <br>
+
+
+        <h3>Sessions</h3>
+        <ul class="thumbnail">
+            <li ng-repeat="session in values.Sessions">
+                <div class="row session">
+                    <div class="well span9">
+                        <h4 class="well-title">
+                            {{session.Name}}
+                        </h4>
+                        <span>{{session.CreatorName}}</span>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    
+</nav>
