@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section JavaScriptInHead{
+    <script src="~/Scripts/Course/Course-Module.js"></script>
+    <script src="~/Scripts/Course/Course-Controller.js"></script>
+    <script type="text/javascript">
+        //creating a global variable and giving the value your passing from the MVC controller.........
+        //but 'ng-repeat' will not recognize this global variable..... because of that u need to create a module & and a controller and should 
+        //define the value in the controller(Angular).....
+        courses = @Html.Raw(Model)
+    </script>
+}
+
+<h2>Index</h2>
+
+<div class="container" ng-controller="CoursesController">
+
+    <div class="row">
+        <div class="span10">
+            <table class="table table-condensed table-hover">
+                <tr>
+                    <th>Course</th>
+                    <th>Course Name</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr ng-repeat="course in courses">
+                    <td>{{course.number}}</td>
+                    <td>{{course.name}}</td>
+                    <td>{{course.instructor}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>

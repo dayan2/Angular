@@ -1,0 +1,64 @@
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\AngularJs_Part1.dll.config
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\AngularJs_Part1.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\AngularJs_Part1.pdb
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\Antlr3.Runtime.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\EntityFramework.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\Newtonsoft.Json.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Net.Http.Formatting.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Http.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Http.WebHost.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Mvc.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Optimization.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Providers.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Razor.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.WebPages.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\WebGrease.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\Newtonsoft.Json.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\EntityFramework.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Net.Http.Formatting.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Http.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Http.WebHost.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Mvc.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.Razor.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.WebPages.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\obj\Debug\AngularJs_Part1.csprojResolveAssemblyReference.cache
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\obj\Debug\AngularJs_Part1.dll
+C:\Users\Ewerdney\Documents\Visual Studio 2013\Projects\AngularJs-Part1\AngularJs-Part1\obj\Debug\AngularJs_Part1.pdb
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\AngularJs_Part1.dll.config
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\AngularJs_Part1.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\AngularJs_Part1.pdb
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\Antlr3.Runtime.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\EntityFramework.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\Newtonsoft.Json.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Net.Http.Formatting.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Http.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Http.WebHost.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Mvc.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Optimization.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Providers.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Razor.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.WebPages.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\WebGrease.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\Newtonsoft.Json.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\EntityFramework.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Net.Http.Formatting.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Http.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Http.WebHost.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Mvc.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.Razor.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.WebPages.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\obj\Debug\AngularJs_Part1.csprojResolveAssemblyReference.cache
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\obj\Debug\AngularJs_Part1.dll
+C:\Users\Ewerdney\Desktop\My Projects\AngularJs\AngularJs-MVC\Part3-CreatingAngularController&Module\AngularJs-Part1\obj\Debug\AngularJs_Part1.pdb
