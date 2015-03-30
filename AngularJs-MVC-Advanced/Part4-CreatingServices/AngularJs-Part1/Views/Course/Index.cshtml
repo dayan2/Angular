@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section JavaScriptInHead{
+    <script src="~/Scripts/Course/Course-Module.js"></script>
+    <script src="~/Scripts/Course/Course-Controller.js"></script>
+    <script type="text/javascript">
+        //Creating a service and giving the name 'bootstrapData' and inserting ur model
+        registrationModule.factory('bootstrapData', function(){
+            return{
+                courses: @Html.Raw(Model)
+            };
+        });
+
+    </script>
+}
+
+<h2>Index</h2>
+
+<div class="container" ng-controller="CoursesController">
+
+    <div class="row">
+        <div class="span10">
+            <table class="table table-condensed table-hover">
+                <tr>
+                    <th>Course</th>
+                    <th>Course Name</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr ng-repeat="course in courses">
+                    <td>{{course.number}}</td>
+                    <td>{{course.name}}</td>
+                    <td>{{course.instructor}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>

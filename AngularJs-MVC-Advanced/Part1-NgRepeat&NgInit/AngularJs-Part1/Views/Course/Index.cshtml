@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="container" ng-init="courses = [
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CX123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'},
+     {number: 'CD123', name: 'Care of magical creature', instructor: 'John Doe'}
+     ]">
+
+    <div class="row">
+        <div class="span10">
+            <table class="table table-condensed table-hover">
+                <tr>
+                    <th>Course</th>
+                    <th>Course Name</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr ng-repeat="course in courses">
+                    <td>{{course.number}}</td>
+                    <td>{{course.name}}</td>
+                    <td>{{course.instructor}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>

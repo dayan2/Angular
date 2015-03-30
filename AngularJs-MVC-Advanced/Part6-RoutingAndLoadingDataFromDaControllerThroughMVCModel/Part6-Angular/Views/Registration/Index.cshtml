@@ -1,0 +1,45 @@
+﻿@model Part6_Angular.Models.RegistrationVM
+@{
+    ViewBag.Title = "Index";
+    
+}
+
+@section JavaScriptInHead{
+    <script src="~/Scripts/Registration/Module.js"></script>
+    <script src="~/Scripts/Registration/Course-Controller.js"></script>
+    <script src="~/Scripts/Registration/InstructorController.js"></script>
+        <script type="text/javascript">
+            //Creating a service and giving the name 'bootstrapData' and inserting ur model
+            registrationModule.factory('bootstrapData', function(){
+                return{
+                    courses: @Html.Raw(Model.Courses),
+                    instructors: @Html.Raw(Model.Instructors)
+                    };
+            });
+
+        </script>
+    }
+
+<h2>Index</h2>
+
+<div class="container">
+    <div class="row">
+        hello{{2+2}}
+        <div class="navbar navbar-default">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav">
+                    <li><span class="navbar-brand">Registration</span></li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/Courses">Courses</a></li>
+                    <li><a href="#/Instructors">Instructors</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <div ng-view></div>
+</div>
