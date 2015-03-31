@@ -1,0 +1,42 @@
+﻿<div class="row">
+    <div class="col-md-10">
+        <h2>Create Account</h2>
+    </div>
+</div>
+
+<!--make html5 form validation disable-->
+<form name="accountForm" novalidate>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="">First Name: </label>
+                <input type="text" name="firstName" ng-model="student.firstName" class="form-control" required />
+                <div class="text-danger" ng-show="accountForm.firstName.$error.required && accountForm.firstName.$dirty">Please enter your first name</div>
+            </div>
+            <div class="form-group">
+                <label for="">Last Name: </label>
+                <input type="text" name="lastName" ng-model="student.lastName" class="form-control" required />
+                <div class="text-danger" ng-show="accountForm.lastName.$error.required && accountForm.lastName.$dirty">Please enter your last name</div>
+            </div>
+            <div class="form-group">
+                <label for="">Email: </label> <!--Creating 2 error divs to show required and invalid Email-->
+                <input type="text" name="email" ng-model="student.email" class="form-control" required ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" />
+                <div class="text-danger" ng-show="accountForm.email.$error.required && accountForm.email.$dirty">Please enter your email</div>
+                <div class="text-danger" ng-show="accountForm.email.$error.pattern && accountForm.email.$dirty">Invalid Email</div>
+            </div>
+            <div class="form-group">
+                <label for="">Password: </label>
+                <input type="text" name="password" ng-model="student.password" class="form-control" required />
+                <div class="text-danger" ng-show="accountForm.password.$error.required && accountForm.password.$dirty">Please enter your passworde</div>
+            </div>
+
+            <!--making disable till every field is filled-->
+            <button class="btn btn-default" ng-disabled="accountForm.$invalid" ng-click="save(student)">Create</button>
+
+
+            <!--Server-side validation shown from here-->
+            <div style="color:red" ng-show="errors.length > 0" ng-repeat="error in errors">{{error}}</div>
+
+        </div>
+    </div>
+</form>

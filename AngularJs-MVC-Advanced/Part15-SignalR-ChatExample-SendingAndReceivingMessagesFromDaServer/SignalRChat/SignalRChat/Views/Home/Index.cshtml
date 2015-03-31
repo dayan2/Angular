@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    <script src="~/app/Module.js"></script>
+    <script src="~/app/Controller.js"></script>
+
+}
+
+
+<div class="panel panel-info" ng-controller="MainController">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>Real Time Chat</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-body">
+        <div ng-repeat="msg in messages">
+            {{msg.message}}
+        </div>
+        <div>
+            <input ng-model="newMessage" type="text" />
+            <button ng-click="sendMessage()"> Send </button>
+        </div>
+    </div>
+
+</div>
+
+
+@*<script type="text/javascript">
+    (function () {
+        var app = angular.module('app', []);
+
+        //(function () {
+        $.connection.hub.logging = true;
+        $.connection.hub.start();
+        //});
+
+        $.connection.hub.error(function (err) {
+            console.log('An error Occurred   ' + err);
+        });
+
+        angular.module('app').value('chat', $.connection.chat);
+
+        app.controller('MainController', function ($scope, chat) {
+            $scope.messages = [];
+
+
+            $scope.sendMessage = function () {
+                chat.server.sendMessage($scope.newMessage);
+                alert("Message new : " + $scope.newMessage);
+                console.log("Message new : " + $scope.newMessage);
+                //$scope.newMessage = "";
+
+            };
+
+            chat.client.newMessage = function onNewMessage(message) {
+                $scope.messages.push({ message: message });
+                $scope.$apply();
+                console.log(message);
+            };
+
+        });
+
+    })();
+</script>*@
